@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Neucha&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mountains+of+Christmas:wght@400;700&family=Neucha&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Pangolin&display=swap');
+
+*{
+    font-family: "Pangolin", serif;
+    color: #d44960;
+}
+body{
+    background-color: #c9baa6;
+}
+header{
+    background-color: #aa183c;
+    width: 768px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 23px auto;
+    text-align: center;
+}
+h1{
+    font-family: "Mountains of Christmas", serif;
+    text-transform: uppercase;
+    color: #f4f0f0;
+}
+footer{
+    font-family: "Mountains of Christmas", serif;
+    font-size: 20px;
+}
+main{
+    width: 768px;
+    margin: 23px auto;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #c33155;
+}
+.first{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    padding: 20px;
+    background-color: #f4f0f0;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 200px;
+    font-size: 23px;
+    text-align: center;
+    transition: 1s;
+}
+.fa-solid{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    margin: 10px;
+}
+.fa-solid:hover{
+    color: #f4f0f0;
+}
+.ti:hover{
+    color: #f4f0f0;
+}
+.card:hover{
+    color: #f4f0f0;
+    background-color: #d44960;
+    border: 2px solid #f4f0f0;
+}
+.cur{
+    width: 300px;
+    height: 300px;
+    cursor: url("https://w1.pngwing.com/pngs/370/239/png-transparent-chinese-beagle-chinese-crested-dog-puppy-maltese-dog-pet-sitting-bark-dog-walking-thumbnail.png"), auto;
+}
+cursor{
+    cursor: url("https://w1.pngwing.com/pngs/370/239/png-transparent-chinese-beagle-chinese-crested-dog-puppy-maltese-dog-pet-sitting-bark-dog-walking-thumbnail.png"), auto;
+} 
