@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap');
+body{
+    background-color: rgb(236, 201, 225);
+    font-family: "Jost", serif;
+}
+header{
+    background-color: rgb(216, 96, 178);
+    height: 101px;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    flex-wrap: wrap;
+    padding: 10px auto;
+}
+.title{
+    margin: auto;
+    font-size: 50px;
+}
+.barrio{
+    font-family: "Barrio", serif;
+}
+.jersey{
+    font-family: "Jersey 15", serif;
+}
+.menu{
+    font-weight: 300;
+    margin: auto auto auto 20%;
+    font-size: 24px;
+    color: rgb(205, 208, 210);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    flex-wrap: wrap;
+}
+.block{
+    background-color: beige;
+    color: rgb(184, 156, 156);
+    width: 87%;
+    margin: 30px auto;
+    border-radius: 16px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 13px;
+}
+.box{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    display: block;
+    padding: 11px;
+    margin: 5px;
+    border: 2.5px solid #7978d7;
+    border-radius: 15px;
+    color: #9897f7;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 40px;
+}
+.btn:hover{
+    color: rgb(222, 112, 112);
+    border: 2.5px solid rgb(222, 112, 112);
+    font-size: 50px;
+}
