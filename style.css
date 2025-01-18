@@ -78,14 +78,17 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+.greet{
+    color: #d8a1d1;
+}
 .btn{
     display: block;
     padding: 11px;
     margin: 5px;
-    border: 2.5px solid #7978d7;
+    border: 2.5px solid #9897f7;
     border-radius: 15px;
-    color: #9897f7;
     font-weight: 400;
+    color: #9897f7;
     text-decoration: none;
     font-size: 37px;
     transition: 1s;
@@ -146,8 +149,15 @@ nav{
 .info-short{ 
     width: 70%;
     display: block;
-    color: #d366c4;
+    color: #d8a1d1;
     text-align: center;
     margin: 15px auto 15px auto;
     font-size: 25px;
+}
+footer{
+    font-weight: 400;
+    font-size: 26px;
+}
+p{
+    transition: 0.5s;
 }
