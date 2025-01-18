@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Chewy&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&family=Ranchers&display=swap');
 body{
     background-color: rgb(236, 201, 225);
     font-family: "Jost", serif;
@@ -8,6 +6,7 @@ body{
 header{
     background-color: rgb(216, 96, 178);
     height: 101px;
+    width: 100%;
     color: aliceblue;
     display: flex;
     justify-content: flex-start;
@@ -16,18 +15,22 @@ header{
     margin: 0px;
     flex-wrap: wrap;
     padding: 10px auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .title{
     margin: auto;
     font-size: 50px;
-}
-.barrio{
-    font-family: "Barrio", serif;
-}
-.jersey{
+    transition: 0.5s;
+    text-decoration: none;
+    color: aliceblue;
     font-family: "Jersey 15", serif;
 }
-.menu{
+.title:hover{
+    font-size: 60px;
+}
+nav{
     font-weight: 300;
     margin: auto auto auto 20%;
     font-size: 24px;
@@ -39,7 +42,7 @@ header{
     width: 600px;
     flex-wrap: wrap;
 }
-.block{
+.block-home{
     background-color: beige;
     color: rgb(184, 156, 156);
     width: 87%;
@@ -52,6 +55,13 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 13px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 13px;
 }
 .box{
@@ -77,10 +87,67 @@ header{
     color: #9897f7;
     font-weight: 400;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 37px;
+    transition: 1s;
 }
 .btn:hover{
     color: rgb(222, 112, 112);
     border: 2.5px solid rgb(222, 112, 112);
-    font-size: 50px;
+    font-size: 47px;
+}
+.menu{
+    font-size: 24px;
+    color: rgb(205, 208, 210);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu:hover{
+    font-size: 35px;
+}
+.red_hover:hover{
+    color: rgb(222, 9, 9);
+}
+
+.brands{
+    width: 60%;
+    margin: 15px;
+}
+.about{
+    font-weight: 400;
+    font-size: 45px;
+    display: block;
+    margin: 10px auto 10px auto;
+    font-family: "Ranchers", serif;
+}
+.chewy{
+    font-family: "Chewy", serif;
+}
+.icon{
+    color: rgb(184, 156, 156);
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 47px;
+}
+.icon:hover{
+    font-size: 52px;
+}
+.black:hover{
+    color: #24292e;
+}
+.blue:hover{
+    color:  #0088cc;
+}
+.blue-dark:hover{
+    color: #1DA1F2;
+}
+.green:hover{
+    color: #1DB954;
+}
+.info-short{ 
+    width: 70%;
+    display: block;
+    color: #d366c4;
+    text-align: center;
+    margin: 15px auto 15px auto;
+    font-size: 25px;
 }
