@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Chewy&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&family=Ranchers&display=swap');
+
+*{
+    cursor: url('https://i.pinimg.com/736x/13/d9/d7/13d9d7b759a617f7b3a767a7ea5741ea.jpg'), auto;
+}
 body{
     background-color: rgb(236, 201, 225);
     font-family: "Jost", serif;
@@ -160,4 +164,48 @@ footer{
 }
 p{
     transition: 0.5s;
+}
+.beige{
+    background-color: rgb(237, 229, 200);
+}
+.box2{
+    background-color: rgb(208, 210, 210);
+    border-radius: 16px;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.block-resume{
+    background-color: rgb(236, 201, 225);
+    color: rgb(227, 140, 140);
+    width: 87%;
+    margin: 30px auto;
+    border-radius: 16px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.title-r{
+    font-size: 50px;
+    font-family: "Ranchers", serif;
+    color: rgb(227, 140, 140);
+    text-align: center;
+}
+.edu{
+    font-size: 40px;
+    text-align: left;
+    color: #bc3b99;
+    display: block;
+    margin: 70px;
+    font-weight: 700;
+}
+.edu_small{
+    font-size: 30px;
+    text-align: left;
+    color: #bc3b99;
+    display: block;
+    margin: 70px;
+    font-weight: 600;
 }
