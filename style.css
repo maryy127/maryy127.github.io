@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Chewy&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&family=Ranchers&display=swap');
-
-*{
-    cursor: url('https://i.pinimg.com/736x/13/d9/d7/13d9d7b759a617f7b3a767a7ea5741ea.jpg'), auto;
-}
 body{
+    cursor: url('https://i.pinimg.com/736x/13/d9/d7/13d9d7b759a617f7b3a767a7ea5741ea.jpg'), auto;
     background-color: rgb(236, 201, 225);
     font-family: "Jost", serif;
 }
@@ -16,7 +13,7 @@ header{
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
-    margin: 0px;
+    margin-top: 0px;
     flex-wrap: wrap;
     padding: 10px auto;
     position: -webkit-sticky;
@@ -162,7 +159,7 @@ footer{
     font-weight: 400;
     font-size: 26px;
 }
-p{
+*{
     transition: 0.5s;
 }
 .beige{
@@ -187,15 +184,21 @@ p{
     color: rgb(227, 140, 140);
     width: 81%;
     margin: 70px auto;
+    align-items: center;
     border-radius: 16px;
     box-sizing: border-box;
     flex-wrap: wrap;
+    padding: 20px;
 }
 .title-r{
     font-size: 50px;
     font-family: "Ranchers", serif;
     color: rgb(227, 140, 140);
     text-align: center;
+    transition: 1s;
+}
+.title-r:hover{
+    font-size: 60px;
 }
 .edu-t{
     font-size: 40px;
@@ -241,4 +244,114 @@ p{
     flex-direction: row;
     justify-content: flex-start;
     padding: 13px;
+}
+.block-resume:hover{
+    .box2{
+        padding: auto 50px auto 50px;
+    }
+    .edu-t{
+        font-size: 43px;
+    }
+    .edu_year, .edu_place{
+        font-size: 35px;
+    }
+    .disc{
+        font-size: 30px;
+    }
+}
+.math{
+    background-image: url('math-game.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+}
+.nano{
+    background-image: url('nano.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+}
+.netstr{
+    background-image: url('net-str.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+}
+.smart-home{
+    background-image: url('smart-home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+}
+.new-year{
+    background-image: url('new-year.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: top;
+}
+.zoo{
+    background-image: url('zoo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: top;
+}
+.weather{
+    background-image: url('weather.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: top;
+}
+.box-pr{
+    height: 550px;
+    width: 40%;
+    margin: 60px;
+}
+.title-pr{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(227, 140, 140);
+}
+.disc-pr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(33, 22, 30);
+    font-weight: 400;
+}
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 470px;
+}
+.click{
+    display: block;
+    font-size: 35px;
+    text-decoration: none;
+    width: 150px;
+    padding: 7px;
+    border: 3px solid #d50d88;
+    border-radius: 16px;
+    color: rgb(196, 89, 107);
+    text-align: center;
+    margin-top: 30px;
+}
+.click:hover{
+    color: #ff009d;
+    border: 3px solid #8c095a;
+    font-size: 43px;
+    width: 230px;
 }
