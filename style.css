@@ -100,6 +100,8 @@ nav{
     font-size: 47px;
 }
 .menu{
+    display: flex;
+    justify-content: space-between;
     font-size: 24px;
     color: rgb(205, 208, 210);
     text-decoration: none;
@@ -167,22 +169,22 @@ footer{
 }
 .box2{
     background-color: rgb(234, 190, 190);
-    width: 23%;
+    width: 20%;
+    aspect-ratio: 1 / 1;
     border-radius: 16px;
     font-size: 29px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 40px;
-    margin: 65px;
+    padding: 5%;
+    margin: 7%;
     text-align: center;
-    padding-left: 60px;
 }
 .block-resume{
     background-color: rgb(236, 201, 225);
     color: rgb(227, 140, 140);
-    width: 81%;
+    width: 87%;
     margin: 70px auto;
     align-items: center;
     border-radius: 16px;
@@ -209,8 +211,7 @@ footer{
     font-weight: 700;
 }
 .edu_year{
-    font-size: 30px;
-    text-align: center;
+    font-size: 28px;
     color: #e153bb;
     font-weight: 600;
 }
@@ -230,6 +231,7 @@ footer{
     margin-left: 7px;
 }
 .disc-place{
+    width: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,27 +239,14 @@ footer{
     font-size: 30px;
     color: rgb(33, 22, 30);
     font-weight: 400;
-    margin-left: 9%;
+    margin-left: 4%;
+    flex-wrap: wrap;
 }
 .line-r{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding: 13px;
-}
-.block-resume:hover{
-    .box2{
-        padding: auto 50px auto 50px;
-    }
-    .edu-t{
-        font-size: 43px;
-    }
-    .edu_year, .edu_place{
-        font-size: 35px;
-    }
-    .disc{
-        font-size: 30px;
-    }
 }
 .math{
     background-image: url('math-game.png');
@@ -309,9 +298,9 @@ footer{
     background-position: top;
 }
 .box-pr{
-    height: 550px;
+    aspect-ratio: 1 / 1;
     width: 40%;
-    margin: 60px;
+    margin: 5%;
 }
 .title-pr{
     font-size: 45px;
@@ -354,4 +343,58 @@ footer{
     border: 3px solid #8c095a;
     font-size: 43px;
     width: 230px;
+}
+.icon-sk{
+    width: 140px;
+    height: 140px;
+}
+.python{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png');
+}
+.html{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png');
+}
+.css{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('css3-logo-png-transparent.png');
+}
+.figma{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('Figma-1-logo.png');
+}
+.js{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('JavaScript-Logo.png');
+}
+.ci{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('c--logo-icon-0.png');
+}
+.icon-sk:hover{
+    width: 200px;
+    height: 200px;
+}
+.center{
+    text-align: center;
+    font-size: 45px;
+    color: #3b2d37;
+}
+.skill{
+    margin: 40px 50px 40px 20px;
+}
+.more{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 47px;
+    color: #372231;
 }
