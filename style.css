@@ -54,6 +54,7 @@ nav{
 }
 .line{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 13px;
@@ -388,7 +389,7 @@ footer{
     color: #3b2d37;
 }
 .skill{
-    margin: 40px 50px 40px 20px;
+    margin: 40px;
 }
 .more{
     display: block;
