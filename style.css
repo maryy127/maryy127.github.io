@@ -18,6 +18,18 @@ header{
     position: sticky;
     top: 0;
 }
+.none{
+    font-family: "Jost", serif;
+}
+footer{
+    -webkit-text-stroke: 1.5px #fff;
+    font-family: Whisper;
+    font-size: 35px;
+}
+@font-face {
+    font-family: Whisper;
+    src: url(Upright.otf) format("opentype")
+}
 .title{
     margin: auto;
     font-size: 50px;
@@ -208,10 +220,6 @@ nav{
     font-size: 29px;
     color: #cb63bd;
     margin: 30px auto;
-}
-footer{
-    font-weight: 400;
-    font-size: 26px;
 }
 *{
     transition: 0.5s;
