@@ -15,8 +15,6 @@ header{
     align-items: center;
     margin-top: 0px;
     flex-wrap: wrap;
-    padding: 10px auto;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -33,7 +31,7 @@ header{
 }
 nav{
     font-weight: 300;
-    margin: auto auto auto 15%;
+    margin: auto;
     font-size: 24px;
     color: rgb(205, 208, 210);
     display: flex;
@@ -42,6 +40,11 @@ nav{
     align-items: center;
     width: 600px;
     flex-wrap: wrap;
+}
+@media (min-width: 700px){
+    .menu{
+        margin-left: 18px;
+    }
 }
 .block-home{
     background-color: beige;
@@ -74,7 +77,43 @@ nav{
     padding: 20px;
     text-align: center;
 }
-
+.gif{
+    width: 40%;
+    height: 40%;
+}
+@media (max-width: 800px){
+    .gif{
+        width: 80%;
+        height: 80%;
+    }
+    nav{
+        gap: 5%;
+    }
+    .buttons{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .brands{
+        width: max-content;
+        gap: 10px;
+    }
+    .box-pr{
+        width: 90%;
+        aspect-ratio: 1 / 1;
+    }
+    .right{
+        width: 80%;
+    }
+    .line-r{
+        flex-direction: column;
+    }
+    .box2{
+        width: 80%;
+    }
+    .disc-place{
+        width: 80%;
+    }
+}
 .buttons{
     display: flex;
     justify-content: space-around;
@@ -182,7 +221,6 @@ footer{
 }
 .box2{
     background-color: rgb(234, 190, 190);
-    width: 20%;
     aspect-ratio: 1 / 1;
     border-radius: 16px;
     font-size: 29px;
@@ -193,6 +231,18 @@ footer{
     padding: 5%;
     margin: 7%;
     text-align: center;
+}
+@media (min-width: 801px) {
+    .box2{
+        width: 20%;
+    }
+    .disc-place{
+        width: 45%;
+    }
+    .box-pr{
+        width: 40%;
+        aspect-ratio: 1 / 1;
+    }
 }
 .block-resume{
     background-color: rgb(236, 201, 225);
@@ -244,7 +294,6 @@ footer{
     margin-left: 7px;
 }
 .disc-place{
-    width: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,7 +306,6 @@ footer{
 }
 .line-r{
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     padding: 13px;
 }
@@ -312,7 +360,6 @@ footer{
 }
 .box-pr{
     aspect-ratio: 1 / 1;
-    width: 40%;
     margin: 5%;
 }
 .title-pr{
@@ -337,7 +384,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 470px;
 }
 .click{
     display: block;
