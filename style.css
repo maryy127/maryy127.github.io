@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Chewy&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&family=Ranchers&display=swap');
+* {
+    cursor: url(https://i.pinimg.com/736x/13/d9/d7/13d9d7b759a617f7b3a767a7ea5741ea.jpg), auto;
+    transition: 0.5s;
+}
 body{
-    cursor: url('https://i.pinimg.com/736x/13/d9/d7/13d9d7b759a617f7b3a767a7ea5741ea.jpg'), auto;
     background-color: rgb(236, 201, 225);
     font-family: "Jost", serif;
 }
@@ -221,9 +224,7 @@ nav{
     color: #cb63bd;
     margin: 30px auto;
 }
-*{
-    transition: 0.5s;
-}
+
 .beige{
     background-color: rgb(237, 229, 200);
 }
