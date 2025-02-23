@@ -302,18 +302,6 @@ nav {
     }
 }
 
-@media (max-width: 901px) {
-    .header {
-        gap: 1em;
-    }
-}
-
-@media (min-width: 902px) {
-    .header {
-        gap: 10%;
-    }
-}
-
 .block-resume {
     background-color: rgb(236, 201, 225);
     color: rgb(227, 140, 140);
