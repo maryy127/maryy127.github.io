@@ -56,11 +56,6 @@ nav{
     width: 600px;
     flex-wrap: wrap;
 }
-@media (min-width: 700px){
-    .menu{
-        margin-left: 18px;
-    }
-}
 .block-home{
     background-color: beige;
     color: rgb(184, 156, 156);
@@ -257,6 +252,16 @@ nav{
     }
     .right{
         width: 40%;
+    }
+}
+@media (max-width: 901px) {
+    .header{
+        gap: 1em;
+    }
+}
+@media (min-width: 902px) {
+    .header{
+        gap: 10%;
     }
 }
 .block-resume{
